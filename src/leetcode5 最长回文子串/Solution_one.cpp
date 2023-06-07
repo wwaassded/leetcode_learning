@@ -41,9 +41,3 @@ public:
     return s.substr(left,maxLen);
   }
 };
-
-
-int main() {
-  cout << Solution().longestPalindrome("babad");
-  return 0;
-}
